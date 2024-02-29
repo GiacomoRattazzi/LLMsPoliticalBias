@@ -6,6 +6,7 @@ This repo is a WIP
 │   ├── GPT
 │   │   ├── ComparingText.ipynb
 │   │   └── ResultsVisualizations.ipynb
+│   │   └── generatingConent.ipynb
 │   └── PoliticalBiasBERT Validation
 │       ├── BASIL
 │       │   ├── BASIL_Accuracy.ipynb
