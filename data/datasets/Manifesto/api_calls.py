@@ -24,7 +24,7 @@ def get_metadata(api_key, keys, version):
     # Prepare parameters with keys as a list
     params = {
         "api_key": api_key,
-        "keys[]": keys,  # keys is a list of key values
+        "keys[]": keys,  
         "version": version
     }
 
@@ -48,7 +48,7 @@ def get_texts_and_annotations(api_key, manifesto_ids, version):
 
     params = {
         "api_key": api_key,
-        "keys[]": valid_manifesto_ids,  # Pass all valid manifesto_ids
+        "keys[]": valid_manifesto_ids,
         "version": version
     }
 
