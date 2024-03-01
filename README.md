@@ -5,8 +5,8 @@ This repo is a WIP
 ├── code
 │   ├── GPT
 │   │   ├── ComparingText.ipynb
-│   │   └── ResultsVisualizations.ipynb
-│   │   └── generatingConent.ipynb
+│   │   ├── ResultsVisualizations.ipynb
+│   │   └── generatingConent.py
 │   └── PoliticalBiasBERT Validation
 │       ├── BASIL
 │       │   ├── BASIL_Accuracy.ipynb
@@ -20,6 +20,11 @@ This repo is a WIP
 │       └── POLUSA
 │           └── POLUSA.ipynb
 ├── data
+│     └── datasets
+│        └── BASIL
+│        └── Congresionnal Record
+│        └── Manifesto
+│        └── POLUSA
 │     └── results
 │        └── GPT_ModelsResults
 │            ├── datagptBase.csv
